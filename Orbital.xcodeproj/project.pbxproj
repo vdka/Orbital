@@ -13,6 +13,11 @@
 		5D96C3561EECCB1E002B5FA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D96C3541EECCB1E002B5FA5 /* Main.storyboard */; };
 		5D96C3581EECCB1E002B5FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D96C3571EECCB1E002B5FA5 /* Assets.xcassets */; };
 		5D96C35B1EECCB1E002B5FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D96C3591EECCB1E002B5FA5 /* LaunchScreen.storyboard */; };
+		5D96C3701EECD0BE002B5FA5 /* clouds.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D96C36C1EECD09E002B5FA5 /* clouds.png */; };
+		5D96C3711EECD0BE002B5FA5 /* specular.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D96C36D1EECD09E002B5FA5 /* specular.png */; };
+		5D96C3721EECD0BE002B5FA5 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D96C36E1EECD09E002B5FA5 /* normal.png */; };
+		5D96C3731EECD0BE002B5FA5 /* diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D96C36F1EECD09E002B5FA5 /* diffuse.png */; };
+		5D96C3761EECD64B002B5FA5 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D96C3751EECD647002B5FA5 /* ARKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		5D96C3571EECCB1E002B5FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D96C35A1EECCB1E002B5FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D96C35C1EECCB1E002B5FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D96C36C1EECD09E002B5FA5 /* clouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clouds.png; sourceTree = "<group>"; };
+		5D96C36D1EECD09E002B5FA5 /* specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = specular.png; sourceTree = "<group>"; };
+		5D96C36E1EECD09E002B5FA5 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		5D96C36F1EECD09E002B5FA5 /* diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diffuse.png; sourceTree = "<group>"; };
+		5D96C3751EECD647002B5FA5 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D96C3761EECD64B002B5FA5 /* ARKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				5D96C34D1EECCB1E002B5FA5 /* Orbital */,
+				5D96C36B1EECD09E002B5FA5 /* data */,
 				5D96C34C1EECCB1E002B5FA5 /* Products */,
+				5D96C3741EECD647002B5FA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +78,25 @@
 				5D96C35C1EECCB1E002B5FA5 /* Info.plist */,
 			);
 			path = Orbital;
+			sourceTree = "<group>";
+		};
+		5D96C36B1EECD09E002B5FA5 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				5D96C36C1EECD09E002B5FA5 /* clouds.png */,
+				5D96C36D1EECD09E002B5FA5 /* specular.png */,
+				5D96C36E1EECD09E002B5FA5 /* normal.png */,
+				5D96C36F1EECD09E002B5FA5 /* diffuse.png */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		5D96C3741EECD647002B5FA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D96C3751EECD647002B5FA5 /* ARKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +157,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D96C3701EECD0BE002B5FA5 /* clouds.png in Resources */,
+				5D96C3711EECD0BE002B5FA5 /* specular.png in Resources */,
+				5D96C3721EECD0BE002B5FA5 /* normal.png in Resources */,
+				5D96C3731EECD0BE002B5FA5 /* diffuse.png in Resources */,
 				5D96C3511EECCB1E002B5FA5 /* art.scnassets in Resources */,
 				5D96C35B1EECCB1E002B5FA5 /* LaunchScreen.storyboard in Resources */,
 				5D96C3581EECCB1E002B5FA5 /* Assets.xcassets in Resources */,
@@ -273,7 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8Q2MVNGX2D;
+				DEVELOPMENT_TEAM = EPWERN8P4A;
 				INFOPLIST_FILE = Orbital/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.vdka.Orbital;
@@ -287,7 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8Q2MVNGX2D;
+				DEVELOPMENT_TEAM = EPWERN8P4A;
 				INFOPLIST_FILE = Orbital/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.vdka.Orbital;
